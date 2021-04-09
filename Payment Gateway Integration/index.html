@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Payment Gateway Integration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+        <script type="text/javascript" src="bootstrap/js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-fixed-top" style="background-color: grey ">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <a href="#"><img src="image/download.jpg" style="height: 90px;width:100px; padding-bottom: 15px;padding-top: 15px"></a>
+                      <ul class="nav navbar-nav navbar-right" style="padding-top: 15px"> 
+                         <li><a href="index.html"><span class="glyphicon glyphicon-home" style="color: black">Home</span></a></li>
+                         <li><a href="index.html"><span class="glyphicon glyphicon-phone" style="color: black">ContactUs</span></a></li>
+                         <li><a href="index.html"><span class="glyphicon glyphicon-tasks" style="color: black">AboutUs</span></a></li>
+                      </ul> 
+                    
+                </div>
+            </div>
+        </nav>
+        <div id="banner_image">
+            <div class="container">
+                <center>
+                    <div class="banner_content">
+                        <h2 style="color: lightgreen"><b>Think of giving not as a duty but as a privilege.</b></h2><br>
+                        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" 
+                            data-payment_button_id="pl_GwUSfqao3fGmL1" async> </script> </form>
+                    </div>
+                </center>
+            </div>
+        </div> 
+        <footer style="padding: 10px 0;background-color: grey;color:black ;bottom: 0;position:fixed;
+                       width: 100%; text-align: center">
+            <p> <b>We make a living by what we get. We make a life by what we give.</b></p>
+        </footer>
+    </body>
+</html>
